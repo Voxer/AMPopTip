@@ -189,7 +189,6 @@
             };
             CGFloat anchor = self.arrowPosition.x / frame.size.width;
             self.layer.anchorPoint = (CGPoint){ anchor, 1 };
-            self.layer.position = (CGPoint){ self.layer.position.x + frame.size.width * anchor, self.layer.position.y + frame.size.height / 2 };
 
             break;
         }
