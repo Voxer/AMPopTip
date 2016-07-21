@@ -178,7 +178,6 @@
             CGFloat anchor = self.arrowPosition.x / frame.size.width;
             _textBounds.origin = (CGPoint){ self.textBounds.origin.x, self.textBounds.origin.y + self.arrowSize.height };
             self.layer.anchorPoint = (CGPoint){ anchor, 0 };
-            self.layer.position = (CGPoint){ self.layer.position.x + frame.size.width * anchor, self.layer.position.y - frame.size.height / 2 };
 
             break;
         }
